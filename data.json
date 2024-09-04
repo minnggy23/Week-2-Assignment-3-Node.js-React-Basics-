@@ -1,0 +1,18 @@
+[
+    {
+        "firstname":"COM",
+        "link":"https://www1.marin.edu/"
+    },
+    {
+        "firstname":"NotApple",
+        "link":"https://www.microsoft.com/en-us/"
+    },
+    {
+        "firstname":"Code Acada",
+        "link":"https://www.codecademy.com/resources/docs/javascript"
+    },
+    {
+        "firstname":"W3School",
+        "link":"https://www.w3schools.com/tags/default.asp"
+    }
+]
