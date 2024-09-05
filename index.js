@@ -6,7 +6,7 @@ const requestListener = function(req,res){
     console.log(req.url);
 
     if(req.url == "/"){
-        fs.readFile(__dirnam + "/page.html")
+        fs.readFile(__dirnam + "/home.html")
             .then(
                 contents => {
                     res.setHeader("Content-Type", "text/html; charset=UTF-8");
@@ -15,7 +15,7 @@ const requestListener = function(req,res){
                 }
             )
     } else{
-        fs.readFile(__dirnam + "/data.json")
+        fs.readFile(__dirnam + "/links.json")
             .then(contents =>{
                 res.setHeader("Content-Type", "application/json; charset=UTF-8");
                     res.writeHeader(200); 

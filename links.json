@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Hello World!",
+        "description": "This is my first React app connected to a Node.js server."
+    },
+    {
+        "title": "NotApple",
+        "link":"https://www.microsoft.com/en-us/"
+    },
+    {
+        "firstname":"Code Acada",
+        "link":"https://www.codecademy.com/resources/docs/javascript"
+    },
+    {
+        "firstname":"W3School",
+        "link":"https://www.w3schools.com/tags/default.asp"
+    }
+]
