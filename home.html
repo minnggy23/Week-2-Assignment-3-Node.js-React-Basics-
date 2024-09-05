@@ -62,19 +62,20 @@
       );
     }
 
-    // use jQuery to load the JSON data from our server
-    $.getJSON(
-      'x', // url for jquery to ask for json from
-      function(jsonFromJquery) {
-        // after JSON loaded, call react createRoot() to identify root HTML element for app
-        // creating a root React element
-        const myRoot = ReactDOM.createRoot( document.getElementById('myApp') );
-        // then call react render() to output JSX component into existing root element
-        myRoot.render(
-          <ProjectList list={jsonFromJquery} />
-        );
-      }
-    );
+     
+    // Fetch JSON using jQuery
+    $.getJSON('./links.json', function(jsonFromJquery) {
+      // Log the JSON to debug
+      console.log(jsonFromJquery);
+
+      // Create React root element
+      const myRoot = ReactDOM.createRoot(document.getElementById('myApp'));
+
+      // Render React component with JSON data
+      myRoot.render(<ProjectList list={jsonFromJquery} />);
+    }).fail(function() {
+      console.error('Error loading JSON');
+    });
   </script>
 </body>
 </html>
