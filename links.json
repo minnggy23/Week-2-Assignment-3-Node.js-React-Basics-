@@ -4,9 +4,11 @@
         "description": "This is my first React app connected to a Node.js server."
     },
     {
-        "title": "NotApple",
-        "link":"https://www.microsoft.com/en-us/"
-    },
+        "title": "Welcome to My Website",
+        "description": "This is a cool project",
+        "year": 2024
+     }
+     ,
     {
         "firstname":"Code Acada",
         "link":"https://www.codecademy.com/resources/docs/javascript"
